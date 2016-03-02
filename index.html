@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="angular.js@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular-route.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-app="routeEx">
+    
+    <h2>PuppyDog Meerpupkat</h2>
+    <div class="links">
+      <a href="#/">Go to Puppy (1)</a> | <a href="#/viewTwo">Go to Dog (2)</a> | <a href="#/viewThree">Meerkat Pup (3)</a> | <a href="#/viewFour">Meerkat (4)</a>
+   </div>
+    <div ng-view=""></div>
+
+<!--     https://plnkr.co/edit/O6TwheRBQOUbgr7OHWqk?p=preview -->
+  
+
+
+ 
+  </body>
+
+</html>
